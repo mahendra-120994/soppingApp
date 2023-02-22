@@ -1,0 +1,115 @@
+* {
+  font-family: 'Roboto';
+}
+.similar-product-item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  margin: 5px;
+}
+.similar-product-image {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.similar-product-title {
+  color: #12022f;
+  font-size: 16px;
+  margin: 5px;
+}
+.similar-product-brand {
+  color: #616e7c;
+  font-size: 16px;
+  margin: 5px;
+}
+.price-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 5px;
+}
+.similar-product-price {
+  color: #12022f;
+  font-size: 16px;
+}
+.similar-product-rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+
+.similar-product-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.similar-product-star {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 3px;
+}
+@media screen and (max-width: 767px) {
+  .similar-product-item {
+    justify-content: space-between;
+    width: 45%;
+    margin: 5px;
+  }
+  .similar-product-image {
+    width: 100%;
+  }
+  .similar-product-details {
+    width: 100%;
+  }
+  .similar-product-title {
+    font-size: 16px;
+  }
+  .similar-product-brand {
+    font-size: 14px;
+  }
+  .price-rating {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .similar-product-price {
+    font-size: 14px;
+  }
+  .similar-product-rating {
+    font-size: 12px;
+  }
+  .star-icon {
+    width: 15px;
+    margin-left: 5px;
+  }
+  .similar-product-rating-container {
+    display: flex;
+    align-items: center;
+    background-color: #3b82f6;
+    border-radius: 6px;
+    width: 60px;
+    padding: 3px;
+  }
+
+  .similar-product-rating {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 2px;
+  }
+
+  .similar-product-star {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 3px;
+  }
+}
